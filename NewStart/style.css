@@ -1,0 +1,221 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #212529;
+}
+header .imgbox {
+  height: 100%;
+}
+header nav a {
+  font-size: 20px;
+  color: white;
+  margin-right: 30px;
+  transition: 1s;
+}
+header nav a:hover {
+  color: #dede30;
+}
+header .btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  border-radius: 2px;
+  background-color: #253132;
+  color: #c4baba;
+  border: 5px solid #c4baba;
+  cursor: pointer;
+}
+header .btn h1 {
+  margin: 5px;
+  font-size: 13px;
+  color: #c4baba;
+}
+header .btn .icon {
+  font-size: 15px;
+}
+
+#nice .box {
+  margin: 70px 0;
+  text-align: center;
+}
+#nice .box h1 {
+  font-size: 40px;
+  color: white;
+}
+#nice .box h2 {
+  margin: 15px;
+  font-size: 120px;
+  font-size: bold;
+  color: white;
+  font-weight: 3px;
+}
+#nice .box .btn {
+  margin: 20px;
+  padding: 18px 35px;
+  background-color: #ffc800;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#nice .box .btn h3 {
+  font-size: 21px;
+  color: white;
+}
+#nice .box .imgbox {
+  height: 400px;
+  background-size: cover;
+}
+
+#services .textcenter {
+  padding: 30px;
+}
+#services .textcenter h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-size: bold;
+  color: #110909;
+}
+#services .textcenter h3 {
+  margin: 20px;
+  font-size: 20px;
+  color: rgba(106, 105, 105, 0.7098039216);
+}
+#services .box {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+#services .box .minibox {
+  height: 150px;
+  width: 150px;
+  border-radius: 180px;
+  background-color: #ffc800;
+}
+#services .box .minibox li .icon {
+  color: white;
+  font-size: 60px;
+}
+#services .textbox {
+  padding: 10px;
+}
+#services .textbox h2 {
+  font-size: 29px;
+  font-weight: 700;
+  font-size: bold;
+}
+#services .textbox h4 {
+  padding: 16px;
+  font-size: 20px;
+  color: rgba(106, 105, 105, 0.7098039216);
+}
+
+#portfolio .textcenter {
+  padding: 50px;
+}
+#portfolio .textcenter h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-size: bold;
+  color: #110909;
+}
+#portfolio .textcenter h3 {
+  margin: 20px;
+  font-size: 20px;
+  color: #110909;
+}
+#portfolio .mainbox li .icon {
+  font-size: 60px;
+  position: relative;
+  right: 240px;
+  top: 120px;
+  transition: 1.5s;
+}
+#portfolio .mainbox li:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  right: 245px;
+  top: 120px;
+  transition: 1.5s;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(244, 226, 27, 0.8117647059);
+}
+#portfolio .textbox {
+  padding: 20px;
+}
+#portfolio .textbox h4 {
+  font-size: 30px;
+  font-weight: 700;
+  font-size: bold;
+}
+#portfolio .textbox h5 {
+  margin: 5px;
+  font-size: 18px;
+  color: rgba(106, 105, 105, 0.7098039216);
+}
+
+#about .textcenter {
+  padding: 20px;
+}
+#about .textcenter h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-size: bold;
+  color: #110909;
+}
+#about .textcenter h3 {
+  margin: 20px;
+  font-size: 20px;
+  color: #110909;
+}
+#about .box .textbox .minibox h2 {
+  font-size: 27px;
+  color: #110909;
+  font-weight: 700;
+}
+#about .box .textbox .minibox h4 {
+  margin: 15px 0;
+  font-size: 35px;
+  color: #110909;
+  font-weight: 700;
+  font-size: bold;
+}
+#about .box .textbox .minibox p {
+  font-size: 20px;
+  color: #a5a3a3;
+}
+#about .box .imgbox {
+  width: 100%;
+  margin: 50px;
+  border-radius: 100px;
+  border: 5px solid rgba(179, 176, 176, 0.7098039216);
+}
+#about .one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
